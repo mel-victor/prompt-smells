@@ -1,0 +1,17 @@
+# Do not publish the original dataset, intermediate data or secrets.
+.git/
+.env
+.env.*
+!.env.example
+settings.json
+*secret*
+*.pem
+*.key
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+02_dataset/raw/DevGPT/*
+02_dataset/interim/*
+!02_dataset/interim/.gitkeep
